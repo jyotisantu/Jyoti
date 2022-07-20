@@ -1,0 +1,181 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/6/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jul 20 13:50:54 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>2 seconds (2162 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestRunner.TestRunner2.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRunner2<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verification of browser.", "Feature to test the functionality of browser."</td>
+<td><div><pre>java.lang.Error: Unresolved compilation problem: 
+
+	at Browser.Browser.openBrowser(Browser.java:18)
+	at stepdefinition.Cucumber.open_the_browser(Cucumber.java:15)
+	at ✽.open the browser(file:///C:/Users/JYNARAYA/eclipse-workspace/org.google.com/src/test/resources/Features/Cucumber.feature:3)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1474657733", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1474657733'><pre>java.lang.Error: Unresolved compilation problem: 
+
+	at Browser.Browser.openBrowser(Browser.java:18)
+	at stepdefinition.Cucumber.open_the_browser(Cucumber.java:15)
+	at ✽.open the browser(file:///C:/Users/JYNARAYA/eclipse-workspace/org.google.com/src/test/resources/Features/Cucumber.feature:3)
+</pre></div></td>
+<td>0</td>
+<td>TestRunner.TestRunner2@7cf283e1</td></tr>
+<tr>
+<td title='TestRunner.TestRunner2.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRunner2<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Checking the functionality for valid data.", "To verify the login functionality."</td>
+<td><div><pre>java.lang.Error: Unresolved compilation problem: 
+
+	at Browser.Browser.openBrowser(Browser.java:18)
+	at stepdefinition.Cucumber1.user_is_able_to_open_the_webpage(Cucumber1.java:15)
+	at ✽.User is able to open the webpage &quot;https://www.saucedemo.com/&quot;(file:///C:/Users/JYNARAYA/eclipse-workspace/org.google.com/src/test/resources/Features/Cucumber1.feature:3)
+</pre></div><a href='#' onClick='toggleBox("stack-trace990146148", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace990146148'><pre>java.lang.Error: Unresolved compilation problem: 
+
+	at Browser.Browser.openBrowser(Browser.java:18)
+	at stepdefinition.Cucumber1.user_is_able_to_open_the_webpage(Cucumber1.java:15)
+	at ✽.User is able to open the webpage &quot;https://www.saucedemo.com/&quot;(file:///C:/Users/JYNARAYA/eclipse-workspace/org.google.com/src/test/resources/Features/Cucumber1.feature:3)
+</pre></div></td>
+<td>0</td>
+<td>TestRunner.TestRunner2@7cf283e1</td></tr>
+<tr>
+<td title='TestRunner.TestRunner1.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRunner1<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To validate that user is able to login the website using valid username and password", "To verify the login functionality."</td>
+<td><div><pre>java.lang.Error: Unresolved compilation problem: 
+
+	at Browser.Browser.openBrowser(Browser.java:18)
+	at Pages.Loginfeature.OpenUrl(Loginfeature.java:14)
+	at stepdefinition.Cucumber2.user_is_able_to_open_the_url(Cucumber2.java:18)
+	at ✽.User is able to open the url &quot;https://www.saucedemo.com/&quot;(file:///C:/Users/JYNARAYA/eclipse-workspace/org.google.com/src/test/resources/Features1/Cucumber2.feature:4)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1958757239", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1958757239'><pre>java.lang.Error: Unresolved compilation problem: 
+
+	at Browser.Browser.openBrowser(Browser.java:18)
+	at Pages.Loginfeature.OpenUrl(Loginfeature.java:14)
+	at stepdefinition.Cucumber2.user_is_able_to_open_the_url(Cucumber2.java:18)
+	at ✽.User is able to open the url &quot;https://www.saucedemo.com/&quot;(file:///C:/Users/JYNARAYA/eclipse-workspace/org.google.com/src/test/resources/Features1/Cucumber2.feature:4)
+</pre></div></td>
+<td>0</td>
+<td>TestRunner.TestRunner1@6fd77352</td></tr>
+<tr>
+<td title='TestRunner.TestRunner1.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRunner1<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To validate that user is able to login the website using valid username and password", "To verify the login functionality."</td>
+<td><div><pre>java.lang.Error: Unresolved compilation problem: 
+
+	at Browser.Browser.openBrowser(Browser.java:18)
+	at Pages.Loginfeature.OpenUrl(Loginfeature.java:14)
+	at stepdefinition.Cucumber2.user_is_able_to_open_the_url(Cucumber2.java:18)
+	at ✽.User is able to open the url &quot;https://www.saucedemo.com/&quot;(file:///C:/Users/JYNARAYA/eclipse-workspace/org.google.com/src/test/resources/Features1/Cucumber2.feature:4)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1785343965", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1785343965'><pre>java.lang.Error: Unresolved compilation problem: 
+
+	at Browser.Browser.openBrowser(Browser.java:18)
+	at Pages.Loginfeature.OpenUrl(Loginfeature.java:14)
+	at stepdefinition.Cucumber2.user_is_able_to_open_the_url(Cucumber2.java:18)
+	at ✽.User is able to open the url &quot;https://www.saucedemo.com/&quot;(file:///C:/Users/JYNARAYA/eclipse-workspace/org.google.com/src/test/resources/Features1/Cucumber2.feature:4)
+</pre></div></td>
+<td>0</td>
+<td>TestRunner.TestRunner1@6fd77352</td></tr>
+<tr>
+<td title='TestRunner.TestRunner1.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRunner1<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To validate that all the product displayed properly", "To verify the login functionality."</td>
+<td><div><pre>java.lang.Error: Unresolved compilation problem: 
+
+	at Browser.Browser.openBrowser(Browser.java:18)
+	at Pages.Loginfeature.OpenUrl(Loginfeature.java:14)
+	at stepdefinition.Cucumber2.user_is_able_to_open_the_url(Cucumber2.java:18)
+	at ✽.User is able to open the url &quot;https://www.saucedemo.com/&quot;(file:///C:/Users/JYNARAYA/eclipse-workspace/org.google.com/src/test/resources/Features1/Cucumber2.feature:4)
+</pre></div><a href='#' onClick='toggleBox("stack-trace702218380", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace702218380'><pre>java.lang.Error: Unresolved compilation problem: 
+
+	at Browser.Browser.openBrowser(Browser.java:18)
+	at Pages.Loginfeature.OpenUrl(Loginfeature.java:14)
+	at stepdefinition.Cucumber2.user_is_able_to_open_the_url(Cucumber2.java:18)
+	at ✽.User is able to open the url &quot;https://www.saucedemo.com/&quot;(file:///C:/Users/JYNARAYA/eclipse-workspace/org.google.com/src/test/resources/Features1/Cucumber2.feature:4)
+</pre></div></td>
+<td>0</td>
+<td>TestRunner.TestRunner1@6fd77352</td></tr>
+<tr>
+<td title='TestRunner.TestRunner2.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRunner2<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Checking the functionality for valid data.", "To verify the login functionality."</td>
+<td><div><pre>java.lang.Error: Unresolved compilation problem: 
+
+	at Browser.Browser.openBrowser(Browser.java:18)
+	at stepdefinition.Cucumber1.user_is_able_to_open_the_webpage(Cucumber1.java:15)
+	at ✽.User is able to open the webpage &quot;https://www.saucedemo.com/&quot;(file:///C:/Users/JYNARAYA/eclipse-workspace/org.google.com/src/test/resources/Features/Cucumber1.feature:3)
+</pre></div><a href='#' onClick='toggleBox("stack-trace814987775", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace814987775'><pre>java.lang.Error: Unresolved compilation problem: 
+
+	at Browser.Browser.openBrowser(Browser.java:18)
+	at stepdefinition.Cucumber1.user_is_able_to_open_the_webpage(Cucumber1.java:15)
+	at ✽.User is able to open the webpage &quot;https://www.saucedemo.com/&quot;(file:///C:/Users/JYNARAYA/eclipse-workspace/org.google.com/src/test/resources/Features/Cucumber1.feature:3)
+</pre></div></td>
+<td>0</td>
+<td>TestRunner.TestRunner2@7cf283e1</td></tr>
+</table><p>
+</body>
+</html>

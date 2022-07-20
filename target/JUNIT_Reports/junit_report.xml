@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="0.049">
+    <testcase classname="Feature to test the functionality of browser." name="Verification of browser." time="0.002">
+        <failure message="Unresolved compilation problem: &#10;" type="java.lang.Error"><![CDATA[Given open the browser......................................................failed
+When Enter the "https://www.saucedemo.com/".................................skipped
+Then page is displayed......................................................skipped
+
+StackTrace:
+java.lang.Error: Unresolved compilation problem: 
+
+	at Browser.Browser.openBrowser(Browser.java:18)
+	at stepdefinition.Cucumber.open_the_browser(Cucumber.java:15)
+	at ✽.open the browser(file:///C:/Users/JYNARAYA/eclipse-workspace/org.google.com/src/test/resources/Features/Cucumber.feature:3)
+]]></failure>
+    </testcase>
+    <testcase classname="To verify the login functionality." name="Checking the functionality for valid data." time="0.001">
+        <failure message="Unresolved compilation problem: &#10;" type="java.lang.Error"><![CDATA[Given User is able to open the webpage "https://www.saucedemo.com/".........failed
+And user passes the username as 'standard_user'.............................skipped
+And user enters the password as 'secret_sauce'..............................skipped
+When Click on the Login button..............................................skipped
+Then User is navigated to the product backlog page..........................skipped
+
+StackTrace:
+java.lang.Error: Unresolved compilation problem: 
+
+	at Browser.Browser.openBrowser(Browser.java:18)
+	at stepdefinition.Cucumber1.user_is_able_to_open_the_webpage(Cucumber1.java:15)
+	at ✽.User is able to open the webpage "https://www.saucedemo.com/"(file:///C:/Users/JYNARAYA/eclipse-workspace/org.google.com/src/test/resources/Features/Cucumber1.feature:3)
+]]></failure>
+    </testcase>
+    <testcase classname="To verify the login functionality." name="Checking the functionality for valid data. 2" time="0.002">
+        <failure message="Unresolved compilation problem: &#10;" type="java.lang.Error"><![CDATA[Given User is able to open the webpage "https://www.saucedemo.com/".........failed
+And user passes the username as 'problem_user'..............................skipped
+And user enters the password as 'secret_sauce'..............................skipped
+When Click on the Login button..............................................skipped
+Then User is navigated to the product backlog page..........................skipped
+
+StackTrace:
+java.lang.Error: Unresolved compilation problem: 
+
+	at Browser.Browser.openBrowser(Browser.java:18)
+	at stepdefinition.Cucumber1.user_is_able_to_open_the_webpage(Cucumber1.java:15)
+	at ✽.User is able to open the webpage "https://www.saucedemo.com/"(file:///C:/Users/JYNARAYA/eclipse-workspace/org.google.com/src/test/resources/Features/Cucumber1.feature:3)
+]]></failure>
+    </testcase>
+</testsuite>

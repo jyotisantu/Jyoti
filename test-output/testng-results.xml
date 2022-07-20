@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="0" failed="6" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-20T13:50:54 IST" name="Suite" finished-at="2022-07-20T13:50:57 IST" duration-ms="2162">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner1@6fd77352]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner2@7cf283e1]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-07-20T13:50:54 IST" name="Test" finished-at="2022-07-20T13:50:57 IST" duration-ms="2162">
+      <class name="TestRunner.TestRunner1">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.TestRunner1@6fd77352]" started-at="2022-07-20T13:50:54 IST" name="setUpClass" finished-at="2022-07-20T13:50:55 IST" duration-ms="974" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3691d4da]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner1@6fd77352]" started-at="2022-07-20T13:50:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-20T13:50:56 IST" duration-ms="801" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate that user is able to login the website using valid username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To verify the login functionality."]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+
+at Browser.Browser.openBrowser(Browser.java:18)
+at Pages.Loginfeature.OpenUrl(Loginfeature.java:14)
+at stepdefinition.Cucumber2.user_is_able_to_open_the_url(Cucumber2.java:18)
+at ✽.User is able to open the url "https://www.saucedemo.com/"(file:///C:/Users/JYNARAYA/eclipse-workspace/org.google.com/src/test/resources/Features1/Cucumber2.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner1@6fd77352]" started-at="2022-07-20T13:50:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-20T13:50:56 IST" duration-ms="13" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate that user is able to login the website using valid username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To verify the login functionality."]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+
+at Browser.Browser.openBrowser(Browser.java:18)
+at Pages.Loginfeature.OpenUrl(Loginfeature.java:14)
+at stepdefinition.Cucumber2.user_is_able_to_open_the_url(Cucumber2.java:18)
+at ✽.User is able to open the url "https://www.saucedemo.com/"(file:///C:/Users/JYNARAYA/eclipse-workspace/org.google.com/src/test/resources/Features1/Cucumber2.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner1@6fd77352]" started-at="2022-07-20T13:50:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-20T13:50:56 IST" duration-ms="10" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate that all the product displayed properly"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To verify the login functionality."]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+
+at Browser.Browser.openBrowser(Browser.java:18)
+at Pages.Loginfeature.OpenUrl(Loginfeature.java:14)
+at stepdefinition.Cucumber2.user_is_able_to_open_the_url(Cucumber2.java:18)
+at ✽.User is able to open the url "https://www.saucedemo.com/"(file:///C:/Users/JYNARAYA/eclipse-workspace/org.google.com/src/test/resources/Features1/Cucumber2.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.TestRunner1@6fd77352]" started-at="2022-07-20T13:50:56 IST" name="tearDownClass" finished-at="2022-07-20T13:50:56 IST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.TestRunner1 -->
+      <class name="TestRunner.TestRunner2">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.TestRunner2@7cf283e1]" started-at="2022-07-20T13:50:56 IST" name="setUpClass" finished-at="2022-07-20T13:50:56 IST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3691d4da]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner2@7cf283e1]" started-at="2022-07-20T13:50:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-20T13:50:56 IST" duration-ms="12" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verification of browser."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Feature to test the functionality of browser."]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+
+at Browser.Browser.openBrowser(Browser.java:18)
+at stepdefinition.Cucumber.open_the_browser(Cucumber.java:15)
+at ✽.open the browser(file:///C:/Users/JYNARAYA/eclipse-workspace/org.google.com/src/test/resources/Features/Cucumber.feature:3)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner2@7cf283e1]" started-at="2022-07-20T13:50:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-20T13:50:56 IST" duration-ms="7" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checking the functionality for valid data."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To verify the login functionality."]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+
+at Browser.Browser.openBrowser(Browser.java:18)
+at stepdefinition.Cucumber1.user_is_able_to_open_the_webpage(Cucumber1.java:15)
+at ✽.User is able to open the webpage "https://www.saucedemo.com/"(file:///C:/Users/JYNARAYA/eclipse-workspace/org.google.com/src/test/resources/Features/Cucumber1.feature:3)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner2@7cf283e1]" started-at="2022-07-20T13:50:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-20T13:50:57 IST" duration-ms="11" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checking the functionality for valid data."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To verify the login functionality."]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+
+at Browser.Browser.openBrowser(Browser.java:18)
+at stepdefinition.Cucumber1.user_is_able_to_open_the_webpage(Cucumber1.java:15)
+at ✽.User is able to open the webpage "https://www.saucedemo.com/"(file:///C:/Users/JYNARAYA/eclipse-workspace/org.google.com/src/test/resources/Features/Cucumber1.feature:3)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.TestRunner2@7cf283e1]" started-at="2022-07-20T13:50:57 IST" name="tearDownClass" finished-at="2022-07-20T13:50:57 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.TestRunner2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
